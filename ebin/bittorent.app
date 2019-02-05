@@ -1,0 +1,11 @@
+{application,bittorent,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{bittorent_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[bittorent_app,bittorent_sup,bittorent_tracker]},
+              {maintainers,[]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
